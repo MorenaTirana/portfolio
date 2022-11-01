@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morena Tirana | Home Page</title>
+
+     <!-- Contact Form Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+     rel="stylesheet" 
+     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+     crossorigin="anonymous">
+
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!-- navbar-->
+    <nav class="navbar">
+        <h1 class="brand">morena tirana</h1>
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="links-container">
+            <li class="links-item"><a href="#" class="link active">home</a></li>
+            <li class="links-item"><a href="#projects" class="link">projects</a></li>
+            <li class="links-item"><a href="#contact-section" class="link">contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- home section-->
+    <section class="home">
+        <div class="hero-content">
+            <h1 class="hero-heading"><span class="highlight">Hi, I'm </span>Morena</span></h1>
+            <p class="profession"> web developer</p>
+            <p class="info"></p>
+            <a href="#contact-section" class="btn">contact</a>
+        </div>
+        <img src="img/img1.png" class="image" alt="">
+    </section>
+
+    <!--- about section -->
+    <section class="about" id="about-section">
+        <h2 class="heading"><span class="highlight">about </span> me </span></h2>
+        <p class="sub-heading">I thrive learning more!</p>
+        <div class="separator"></div>
+
+        <div class="about-me-container">
+            <div class="left-col">
+                <img src="img/CV.png" class="about-image" alt="">
+            </div>
+            <div class="right-col">
+                <p class="about-para"> 
+                   I really enjoyed attending this class! I am not fond of theory
+                   and I have always preferred studying by doing exercises. This course 
+                   gave me the opportunity to learn by reserching and executing many 
+                   different aspects font-end development which I was not familiar with.
+                   I found the lectures very helpful and the interaction with the prof
+                   and other mates genuinely pleasant and instructive. I am sad that 
+                   this training is over because I think I need continuos challenge 
+                   to keep improving and speeding my paste at coding. I hope all this 
+                   hard work and passion will lead me to finally start working as a
+                   programmer in any field possible. 
+                   I am currently doing a website for a friend and as it is about to 
+                   finish I will try to practice with other projects and programming
+                   languages, because coding is my PASSION!
+                   Thank You very much for the opportunity you gave me to expand my 
+                   programming knowledge.  
+                </p>
+                <button type="submit" onclick="window.open('img/CV.png')" >download cV</button>
+            </div>
+        </div>
+
+          <!---best selling products-->
+          
+    <section class="projects" id="projects">
+        <h2 class="heading"><span class="highlight">My </span> Projects </span></h2>
+        <div class="separator"></div>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="img/weather.png" class="product-img" alt="">
+                <p class="product-name"><a href="weatherApp.html">Weather App</a></p>
+            </div>
+            <div class="product-card">
+                <img src="img/js.png" class="product-img" alt="">
+                <p class="product-name"><a href="theory.html">Theory</a></p>
+            </div>
+            <div class="product-card">
+                <img src="img/calculator.png" class="product-img" alt="">
+                <p class="product-name-even"><a href="calculator.html">Calculator</a></p>
+            </div>
+            <div class="product-card">
+                <img src="img/gameConsole.png" class="product-img" alt="">
+                <p class="product-name"><a href="gameConsole.html">Game<br>Console</a></p>
+            </div>
+            <div class="product-card">
+                <img src="img/rps.png" class="product-img" alt="">
+                <p class="product-name-even"><a href="gameUI.html">Game UI</a></p>
+            </div>
+            <div class="product-card">
+                <img src="img/evenodd.png" class="product-img" alt="">
+                <p class="product-name"><a href="evenOdd.html">Even/Odd</a></p>
+            </div>
+            <div class="product-card">
+                <img src="img/square.png" class="product-img" alt="">
+                <p class="product-name-even"><a href="square.html">Square</a></p>
+            </div>
+            <div class="product-card">
+                <img src="img/circle.png" class="product-img" alt="">
+                <p class="product-name"><a href="circle.html">Circle</a></p>
+            </div>
+            <div class="product-card">
+                <img src="img/triangle.png" class="product-img" alt="">
+                <p class="product-name-even"><a href="triangle.html">Triangle</a></p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!---contact form --
+    <section class="contact" id="contact-section">
+        <h2 class="heading">Contact <span class="highlight">me</span></h2>
+        <p class="sub-heading">Lorem ipsum dolor sit amet consectetur.</p>
+        <div class="separator"></div>
+
+        <div class="contact-form">
+            <div class="name">
+                <input type="text" class="first-name" required placeholder="first name">
+                <input type="text" class="last-name" required placeholder="last name">
+            </div>
+            <input type="email" required class="email" placeholder="email">
+            <textarea class="message" placeholder="message" required></textarea>
+            <button class="btn contact-btn">contact</button>
+        </div>
+    </section>
+
+    <!-- Contact Us--
+    <div class="container">
+        <form action="https://formsubmit.co/tiranamorena@gmail.com" method="POST">
+        <!---<form onsubmit="sendEmail(); reset(); return false;">--
+            <h3>Get in Touch</h3>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email id" required>
+            <input type="text" id="phone" placeholder="Phone no." required>
+            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+    </div>
+-->
+<!-----
+<div class="container">
+    <span class="big-circle"></span>
+    <img src="img/shape.png" class="square" alt="" />
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title">Let's get in touch</h3>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+          dolorum adipisci recusandae praesentium dicta!
+        </p>
+
+        <div class="info">
+          <div class="information">
+            <img src="img/location.png" class="icon" alt="" />
+            <p>92 Cherry Drive Uniondale, NY 11553</p>
+          </div>
+          <div class="information">
+            <img src="img/email.png" class="icon" alt="" />
+            <p>lorem@ipsum.com</p>
+          </div>
+          <div class="information">
+            <img src="img/phone.png" class="icon" alt="" />
+            <p>123-456-789</p>
+          </div>
+        </div>
+
+        <div class="social-media">
+          <p>Connect with us :</p>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    -->
+      <div class="container mt-5">
+        <h1>Contact Me!</h1>
+        <form class="row g-3" action="https://formsubmit.co/f959e7f4be88f9b09d0e1343d7a14733"
+         method="POST">
+          <!-- Honeypot -->
+          <input type="text" name="_honey" style="display: none;">
+
+          <!-- Disable Captcha -->
+          <input type="hidden" name="_captcha" value="false">
+
+          <input type="hidden" name="_next" 
+          value="https://morenatirana.github.io/contactForm/success.html" >
+
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" name="name" id="firstName" required>
+          </div>
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
+          </div>
+          <div class="col-md-8">
+            <label for="emailInfo" class="form-label">E-mail</label>
+            <input type="email" class="form-control" name="email" id="emailInfo" required>
+          </div>
+          <div class="col-md-4">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" name="phone" id="phoneNumber" 
+            placeholder="+1 (415) 867-5309">
+          </div>
+          <div class="col-md-12">
+            <label for="comments" class="form-label">Message Content:</label>
+            <textarea class="form-control" id="comments" name="Message,&nbsp;Content" 
+            rows="3" required></textarea>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+    </div>
+
+<!-----
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form action="index.html" autocomplete="off">
+          <h3 class="title">Contact us</h3>
+          <div class="input-container">
+            <input type="text" name="name" class="input" />
+            <label for="">Username</label>
+            <span>Username</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" />
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" />
+            <label for="">Phone</label>
+            <span>Phone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input"></textarea>
+            <label for="">Message</label>
+            <span>Message</span>
+          </div>
+          <input type="submit" value="Send" class="btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+    <footer class="footer-1">
+        <h1 class="footer-heading"><span class="highlight">made with </span> love</span></h1>
+    </footer>
+<!----
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+   
+   <script>
+        function sendEmail(){
+            Email.send({
+               SecureToken: "30073b7-927b-4ed9-bf80-13c4fa33f392",
+               To : 'tiranamorena@gmail.com',
+               From : document.getElementById("email").value,
+               Subject : "New Contact Form Enquiry",
+               Body : "Name: " + document.getElementById("name").value
+                     + "<br> Email: " + document.getElementById("email").value
+                     + "<br> Phone number: " + document.getElementById("phone").value
+                     + "<br> Message: " + document.getElementById("message").value
+            }).then(
+            message => alert("Thank you for contacting us. We'll reverto you ASAP.")
+          );
+        }
+    </script>
+    --->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
+    crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
